@@ -1,0 +1,8 @@
+
+        <h1><?= $category['title'] ?></h1>
+        <?php foreach($products as $product): ?>
+            <h2><?= $product['name'] ?></h2>
+            <p><?= $product['description'] ?></p>
+            <p><strong><?= $product['price'] ?> €</strong></p>
+            <hr/>
+        <?php endforeach; ?>
